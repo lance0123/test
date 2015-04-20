@@ -9,6 +9,8 @@ int main(void)
     long long timestamp = now;
     printf("--lzg--now %ld  %ld %ld  %ld  %ld\n", tv.tv_sec * 8, tv.tv_sec * 10,tv.tv_sec * 100,tv.tv_sec * 1000, tv.tv_usec / 1000 );
     printf("lzg  tv.tv_sec %ld  tv.tv_usec %ld  now %lld tinestamp %lld \n", tv.tv_sec,tv.tv_usec, now, timestamp);
-    
+
+    printf("good something");
+    printf("zhiyugnss\n");
     return 0;
 }
